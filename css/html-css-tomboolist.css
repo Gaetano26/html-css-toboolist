@@ -1,0 +1,33 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+main {
+    text-align: center;
+
+ 
+}
+h1 {
+    display: inline-block;
+    font-size: 40px
+}
+ul {
+    list-style: none;
+    
+}
+
+div {
+    display: inline-block;
+}
+.cerchio {
+    border-radius: 50%;
+    display: inline-block;
+    border-color: black;
+    border-style: ridge;
+    width: 10%;
+    font-size: small;
+}
+ul {
+    font-size: 200%
+}
