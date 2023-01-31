@@ -3,33 +3,45 @@
      padding: 0;
      box-sizing: border-box;
 }
+
+/* colorazione testi in bianco header*/
 header {
     background-color: white;
 }
+
+/*modifica margin del logo*/
 #logo {
     margin-left: 1%;
 }
 
+/*Colorazione body*/
 body{
     background-color: #f6f8f9;
 }
+
+/*modifica posizione margin e altezza main*/
 main {
-    margin: 5% auto 2%;
-    width: 80%;
+    margin: 2% auto 2%;
+    width: 77%;
     height: 60%;
 }
+
+/*modifica testo margin e dimensione del testo accanto al logo*/
 h1 {
     display: inline-block;
-    font-size: 40p;
+    font-size: 40px;
     vertical-align: top;
     margin-top: 0.2%;
-    
+
+ /* modifica colore posizionamento e margin bottoni*/   
 }  
 .bottoni {
     background-color: white;
     width: 100%;
     height: 20%;
     margin-bottom: 0.3%;
+
+ /* modifiche generali bottone 1*/
 }
 #bottone1 {
     height: 5%;
@@ -42,6 +54,8 @@ h1 {
     border: 0;
     border-radius: 15%;
 }
+
+/*modifiche generali bottone 2*/
 #bottone2 {
     margin-left: 0.1%;
     height: 5%;
@@ -51,9 +65,9 @@ h1 {
     border-radius: 15%;
     border-color:  #b2b2b2;
     color:   #b2b2b2;
-    
-
 }
+
+/*modifiche contenitore delle liste*/
 .contenitore-liste {
     width: 100%;
     height: 80%;
@@ -62,52 +76,82 @@ h1 {
     padding-top: 2%;
     padding-bottom: 5%;
 }
+
+/*modifiche testo e posizionamento intesazioni liste*/
 h2 {
-    font-size: 200%;
-    width: 90%;
+    font-size: 20px;
+    width: 85%;
+    
 }
+
+/*cancellazione puntini delle liste unorder*/
 .lista {
     list-style-type: none;
     
 }
+
+/* modifiche testo e posizionamento delle li dentro le ul*/
 li {
     padding-bottom: 10px;
     font-style: inherit;
+    font-weight: 400;
 }
+
+/*modifiche generali li con classe "check"*/
 .check {
     color: green;
     border: 1px solid green;
     border-radius: 50%;
     margin-right: 0.5%;
+    font-weight: bold;
+    font-size: small;    
 }
+
+/*modifiche generali li con classe "cross"*/
 .cross {
     color: red;
     border: 1px solid red;
     border-radius: 50%;
     margin-right: 0.5%;
+    font-weight: bold;
+    font-size: small;
 }
+
+/*cambio colore sfondo span con classe "editorial"*/
 .editorial {
     background-color: #43aaea;
 }
+
+/*cambio colore sfondo span con classe "goals" */
 .goals {
     background-color: blue;
 }
+
+/*cambio colore sfondo span con classe "Recruiting" */
 .Recruiting {
 
     background-color: grey;
 }
+
+/*cambio colore sfondo span con classe "mobile" */
 .mobile {
     background: green;
 }
+
+/*cambio colore sfondo span con classe "website" */
 .website {
     background-color: #a44b7a;
 }
+
+/*cambio colore sfondo span con classe "sales"*/
 .sales {
     background-color: yellow;
 }
+
+/* modifica bordi grandezza colore e padding span con classi "badge"*/
 .badge {
-    border-radius: 30%;
-    padding: 5px;
+    border-radius:20% 45% 20% 45%;
+    padding: 7px;
     font-size: 10px;
     color: white;
 
